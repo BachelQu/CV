@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../css/fonts/Raleway-VariableFont_wght.woff);
+    src: url(../css/fonts/Raleway-VariableFont_wght.ttf) format('truetype');
+}
+body {
+    font-family: "Raleway", sans-serif ;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    font-family: 'Lato', sans-serif;
+    background-color: #dbc2a4 ;
+    color: black;
+    opacity: 1;
+}
+h2 :hover {
+    opacity: 0.8;
+}
+.titre {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.maj {
+    display: flex;
+    justify-content: center;
+}

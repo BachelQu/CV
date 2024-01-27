@@ -1,0 +1,16 @@
+.zoom p a :hover{
+    cursor: zoom-in;
+}
+.container3 {
+    opacity: 1;
+}
+.container3 :hover {
+    opacity: 0.8;
+}
+
+a {
+    text-decoration: none;
+}
+a :hover {
+    text-decoration: underline;
+}
