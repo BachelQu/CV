@@ -10,9 +10,8 @@ address {
     background-color: #2c1d27;
     color: white;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    align-content: space-around;
+    align-content: center;
     flex-wrap: wrap;
 }
 .container2 {
@@ -21,4 +20,5 @@ address {
     margin-right: auto;
     margin-left: 37%;
     text-align: left;
+    padding-right: 60px;
 }
