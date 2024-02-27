@@ -24,21 +24,17 @@ h2 {
     font-family: 'Lato', sans-serif;
     background-color: #dbc2a4 ;
     color: black;
-    opacity: 1;
     text-indent: 20px;
     display: flex;
     flex-direction: column;
     background-position: center;
 }
-h2 :hover {
-    opacity: 0.8;
+section :hover {
+    border-left: solid #782221;
 }
 .titre {
     text-align: center;
     margin-bottom: 20px;
-}
-.survol :hover {
-    height: 100%;
 }
 .experience {
     font-weight: bold;
@@ -53,12 +49,14 @@ h2 :hover {
 }
 address {
     background-color: #2c1d27;
-    color: white;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     flex-wrap: wrap;
     height: 90px;
+}
+address a {
+    color: white;
 }
 address :hover {
     text-decoration: underline;
